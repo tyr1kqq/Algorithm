@@ -35,6 +35,10 @@
             {
                 ShowAds();
             }
+            else
+            {
+                Console.WriteLine("У вас есть премиум подписка");
+            }
             Console.WriteLine("");
 
             Console.WriteLine("Hello" + user2.Name);
@@ -42,12 +46,20 @@
             {
                 ShowAds();
             }
+            else
+            {
+                Console.WriteLine("У вас есть премиум подписка");
+            }
 
             Console.WriteLine("");
             Console.WriteLine("Hello"+ user3.Name);
             if (!user3.IsPremium)
             {
                 ShowAds();
+            }
+            else
+            {
+                Console.WriteLine("У вас есть премиум подписка");
             }
 
 
